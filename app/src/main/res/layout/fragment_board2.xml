@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".boardFragment"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/btnboard1"
+             android:textColor="@color/colormain"
+             android:textStyle="bold"
+             android:layout_marginTop="5dp"
+             android:textSize="18dp"
+             android:backgroundTint="@color/white"
+             android:text="자유"/>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:textSize="18sp"
+             android:id="@+id/btnboard2"
+             android:textStyle="bold"
+             android:backgroundTint="@color/white"
+             android:textColor="@color/colornoselecte"
+             android:text="배틀"/>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/btnreview"
+             android:layout_marginTop="5dp"
+             android:textSize="18dp"
+             android:backgroundTint="@color/white"
+             android:textColor="@color/colornoselecte"
+             android:textStyle="bold"
+             android:text="리뷰"/>
+
+
+
+     </LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/framLinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <FrameLayout
+         android:id="@+id/board_content"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/boardRecycler"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+<!--
+             <com.google.android.material.floatingactionbutton.FloatingActionButton
+                 android:id="@+id/addbtn"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentEnd="true"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginStart="16dp"
+                 android:layout_marginTop="16dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_marginBottom="15dp"
+                 android:backgroundTint="@color/colormain"
+                 android:elevation="6dp"
+                 android:src="@drawable/ic_edit"
+                 app:fabCustomSize="50dp"
+                 app:fabSize="normal"
+                 app:pressedTranslationZ="12dp"
+                 app:tint="@color/white"
+
+
+                 />-->
+         </RelativeLayout>
+
+     </FrameLayout>
+
+</LinearLayout>>
+
+
+
+
+
+
+
+</LinearLayout>

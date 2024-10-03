@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".esportsFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:layout_above="@+id/nav_division"
+        android:background="#FFF0F8FF"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+   <LinearLayout
+       android:id="@+id/espt_linear"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <Button
+           android:id="@+id/lol"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:backgroundTint="@color/colormain"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textSize="15dp"
+           android:text="LoL">
+
+       </Button>
+       <Button
+           android:id="@+id/val"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:backgroundTint="@color/white"
+           android:textColor="@color/colornoselecte"
+           android:textStyle="bold"
+           android:text="VAL"
+           >
+
+       </Button>
+       <Button
+           android:id="@+id/Overwatch"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:backgroundTint="@color/white"
+           android:textColor="@color/colornoselecte"
+           android:textStyle="bold"
+           android:text="Overwatch">
+
+       </Button>
+       <Button
+           android:id="@+id/esptadd"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:backgroundTint="@color/white"
+           android:textColor="@color/colornoselecte"
+           android:textStyle="bold"
+           android:text="기타">
+
+       </Button>
+
+
+   </LinearLayout>
+    <View
+        android:layout_above="@+id/nav_division"
+        android:background="#FFF0F8FF"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+
+ <FrameLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/espt_content"
+     ></FrameLayout>
+
+
+</LinearLayout>

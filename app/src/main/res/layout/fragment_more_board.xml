@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moreBoardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/addBoardHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24sp"
+        android:fontFamily="@font/medium"
+        android:layout_marginLeft="10dp"
+        android:text="글 작성"
+        android:textColor="@color/colormain"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="제목을 작성해주세요."
+        android:fontFamily="@font/medium"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:background="@drawable/add_board"
+        android:layout_below="@id/addBoardHeading"
+        android:maxLines="1"/>
+
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="내용을 작성해주세요."
+        android:fontFamily="@font/medium"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/add_board"
+        android:layout_below="@id/titleEditText"
+        />
+    <TextView
+        android:id="@+id/tagtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentEditText"
+        android:text="태그 달기"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/colornoselecte"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18dp"/>
+
+
+    <Button
+        android:id="@+id/tagbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tagtext"
+        android:backgroundTint="@color/colornoselecte"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:text="태그 추가"
+        android:fontFamily="@font/medium"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colornoselecte"
+        android:hint="작성완료"
+        android:textSize="20dp"
+        android:fontFamily="@font/medium"/>
+
+</RelativeLayout>

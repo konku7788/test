@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sarch"
+        android:icon="@drawable/ic_aram"
+        android:title="검색"
+        android:contentDescription="사진을 검색한다."
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/more"
+        android:title="더보기"
+        android:icon="@drawable/ic_add"
+        android:contentDescription="더보기 메뉴"
+        app:showAsAction="always" />
+
+
+
+</menu>

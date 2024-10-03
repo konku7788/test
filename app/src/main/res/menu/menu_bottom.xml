@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/bottom_home"
+        android:title="홈"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/bottom_calender"
+        android:title="캘린더"
+        android:icon="@drawable/ic_calender"
+        app:showAsAction="always">
+
+    </item>
+
+
+    <item
+        android:id="@+id/bottom_board"
+        android:title="게시판"
+        android:icon="@drawable/ic_board"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/bottom_chat"
+        android:title="체팅"
+        android:icon="@drawable/ic_chat"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/bottom_rank"
+        android:title="랭크"
+        android:icon="@drawable/ic_rank"
+        app:showAsAction="always"></item>
+
+
+
+
+
+
+
+
+
+</menu>
